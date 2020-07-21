@@ -1,13 +1,14 @@
 import React from 'react'
 import {useState} from 'react'
 import { AddCategory } from './components/AddCategory';
+import { GifGrid } from './components/GifGrid';
 
 
 export const GifExpertApp = () => {
    
 
         
-        const [categories, setCategories] = useState(['One Puch', 'Samuray X', 'Dragon Ball']);
+        const [categories, setCategories] = useState(['Dragon Ball']);
 
         //Funcion para agregar un valor al final del array de categories
         /* const handleAdd = ()=>{ */
@@ -26,9 +27,14 @@ export const GifExpertApp = () => {
             
             <ol>
                     {
-                        categories.map(category=>{
-                            return <li key={category}>{category}</li>
-                        })
+                        categories.map(category =>(
+                            <GifGrid 
+                            key={category}
+                            category={category}
+                            />
+                        ) )
+                            
+                       
                     }
             </ol>
         </>
