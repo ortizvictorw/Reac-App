@@ -1,8 +1,7 @@
 ## Imgen de la App
 
 <img src="https://avatars0.githubusercontent.com/u/57049891?s=460&u=3479716881907edaf1bbcfa5c0a6b2ac52c2817d&v=4" width="100" height="100" />
-<img src="https://raw.githubusercontent.com/ortizvictorw/Reac-App/master/gif-expert-app/img%20proyecto.jpg
-" width="300" height="500" />
+<img src="https://raw.githubusercontent.com/ortizvictorw/Reac-App/master/gif-expert-app/img%20proyecto.jpg" width="400" height="800" />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
